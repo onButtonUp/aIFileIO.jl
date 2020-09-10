@@ -1,3 +1,5 @@
+taskSourcePath = "./sourceData"
+
 function log_file(thisMessage::String, returnValue::Int = 0)
 ## when the log file is first created use append = false . . .
     #    CSV.write("logFile.csv", DataFrame(time = [get_time()], event = [thisMessage], retcode = [returnValue]), append=false)
@@ -68,6 +70,8 @@ end
 
 function set_sourcePath(thisPath::String)
     global taskSourcePath = thisPath
+
+    #    taskSourcePath = thisPath
 end
 
 function show_sourcePath()
