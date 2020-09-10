@@ -1,6 +1,6 @@
 module aIFileIO
 
-usingDates, CSV, DataFrames
+using Dates, CSV, DataFrames
 
 include("AIFileFunctions.jl")
 
