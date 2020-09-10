@@ -8,8 +8,7 @@ function log_file(thisMessage::String, returnValue::Int = 0)
   end
 end
 
-function read_log()
-    logDF = DataFrame()
+function read_log() logDF = DataFrame()
     logDF = CSV.File("logFile.csv") |> DataFrame
 end
 
