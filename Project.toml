@@ -1,0 +1,13 @@
+name = "aIFileIO"
+uuid = "12783745-6a2a-4d5e-9ce2-64b04eb164a9"
+authors = ["John Ferrier"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
